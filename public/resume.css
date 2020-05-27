@@ -1,0 +1,31 @@
+#title { 
+	font-family: "montserrat-regular", sans-serif;
+	color: black;
+	font-style: normal;
+	text-rendering: optimizeLegibility; 
+	/*webkit transform prop enables web autors to transform an element in 2d 
+	or 3d space: you can rotate, scale, skew and more
+	translatex */
+  text-align: center;
+  background-color: azure;
+   margin: 0;
+ }
+
+.navigation-container { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  z-index: 2;
+  }
+
+
+.home_container { 
+	position: relative;
+  z-index: -1;
+  margin: 0;
+  padding: 0; 
+  height: 700px;
+
+ }
